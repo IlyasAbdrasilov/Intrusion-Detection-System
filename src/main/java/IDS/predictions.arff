@@ -1,0 +1,38 @@
+@relation 'IoT_Intrusion-weka.filters.unsupervised.attribute.Remove-R4-7,32-38,41-46'
+
+@attribute flow_duration numeric
+@attribute Header_Length numeric
+@attribute 'Protocol Type' numeric
+@attribute fin_flag_number numeric
+@attribute syn_flag_number numeric
+@attribute rst_flag_number numeric
+@attribute psh_flag_number numeric
+@attribute ack_flag_number numeric
+@attribute ece_flag_number numeric
+@attribute cwr_flag_number numeric
+@attribute ack_count numeric
+@attribute syn_count numeric
+@attribute fin_count numeric
+@attribute urg_count numeric
+@attribute rst_count numeric
+@attribute HTTP numeric
+@attribute HTTPS numeric
+@attribute DNS numeric
+@attribute Telnet numeric
+@attribute SMTP numeric
+@attribute SSH numeric
+@attribute IRC numeric
+@attribute TCP numeric
+@attribute UDP numeric
+@attribute DHCP numeric
+@attribute ARP numeric
+@attribute ICMP numeric
+@attribute 'Tot size' numeric
+@attribute IAT numeric
+@attribute label {DDoS-RSTFINFlood,DoS-TCP_Flood,DDoS-ICMP_Flood,DoS-UDP_Flood,DoS-SYN_Flood,Mirai-greeth_flood,DDoS-SynonymousIP_Flood,Mirai-udpplain,DDoS-SYN_Flood,DDoS-PSHACK_Flood,DDoS-TCP_Flood,DDoS-UDP_Flood,BenignTraffic,MITM-ArpSpoofing,DDoS-ACK_Fragmentation,Mirai-greip_flood,DoS-HTTP_Flood,DDoS-ICMP_Fragmentation,Recon-PortScan,DNS_Spoofing,DDoS-UDP_Fragmentation,Recon-OSScan,XSS,DDoS-HTTP_Flood,Recon-HostDiscovery,CommandInjection,VulnerabilityScan,DDoS-SlowLoris,Backdoor_Malware,BrowserHijacking,DictionaryBruteForce,SqlInjection,Recon-PingSweep,Uploading_Attack}
+
+@DATA
+1,20,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,90,40859,?
+1,20,6,0,0,1,1,1,0,0,1,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,54,107,?
+1,20,17,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,90,41,?
+-33099,20,6,0,0,0,1,0,1,0,0,2,1,4,1,0,0,0,0,0,0,0,1,0,0,0,0,54,133,?
