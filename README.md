@@ -8,7 +8,7 @@
 *Sign Up панель.*
 
 ![Choosing network interfaces](./screenshots/3.png)
-*ОВыбор сетевых интерфейсов.*
+*Выбор сетевого интерфейса.*
 
 ![Listening to traffic](./screenshots/4.png)
 *Прослушивание трафика.*
@@ -17,7 +17,7 @@
 *Прослушивание после выполнения атаки SynFlood.*
 
 ![Database attack logs](./screenshots/6.png)
-*Логи атак базы данных.*
+*Логи атак в базе данных.*
 
 ![Database users info](./screenshots/7.png)
-*Информация о пользователях базы данных.*
+*Информация о пользователях в базе данных.*
